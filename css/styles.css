@@ -12243,6 +12243,11 @@ html {
   height: 100%;
 }
 
+.imgsize {
+  height: 200px;
+  max-width: 530px;
+}
+
 .content-section {
   padding-top: 7.5rem;
   padding-bottom: 7.5rem;
@@ -12440,7 +12445,20 @@ footer.footer .social-link:hover {
 }
 
 .bglightpurple {
-  background: #B6A7DC;
+  background: #CD6581;
+}
+
+.select:hover {
+  transform: scale(1.04);
+  transition: all .15s linear;
+}
+
+.lavender {
+  background-color: #E3D8F1;
+}
+
+.lightblue {
+  background-color: #FED4E7;
 }
 
 .masthead {
@@ -12481,7 +12499,6 @@ footer.footer .social-link:hover {
   position: relative;
   overflow: hidden;
   max-width: 530px;
-  margin: auto auto 1rem;
 }
 
 .portfolio-item .caption {
@@ -12492,6 +12509,8 @@ footer.footer .social-link:hover {
   position: absolute;
   top: 0;
   bottom: 0;
+  left: 0;
+  right: 0;
   z-index: 1;
 }
 
