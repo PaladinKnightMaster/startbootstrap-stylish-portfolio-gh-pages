@@ -12401,12 +12401,12 @@ html {
   max-width: 30rem;
 }
 
-footer.footer {
-  padding-top: 5rem;
-  padding-bottom: 5rem;
+footer {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
 }
 
-footer.footer .social-link {
+.social-link {
   display: block;
   text-decoration: none;
   height: 4rem;
@@ -12418,7 +12418,7 @@ footer.footer .social-link {
   box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.1);
 }
 
-footer.footer .social-link:hover {
+.social-link:hover {
   background-color: #155d74;
   text-decoration: none;
 }
